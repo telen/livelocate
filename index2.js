@@ -387,14 +387,15 @@ var clayer = (function() {
 
 setTimeout(function() {
 
-d3.csv('makedata/data2.txt',function(error, data) {
+d3.csv('makedata/data.txt',function(error, data) {
 
     var index = 0;
     setInterval(function() {
         var size = index + 100;
         if (size > data.length) {
-            size = 10;
+            size = 100;
             index = 0;
+            console.log('repeat');
         }
 
         for (; index < size; index++) {
