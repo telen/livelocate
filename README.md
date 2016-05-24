@@ -6,7 +6,7 @@ This project shows the live location of user.
 
 ## Map
 
-Using D3 drawing a vector map, which can zoom to fit window.
+Using D3 to draw a vector map, which can zoom to fit window.
 
 ## Locating points
 
